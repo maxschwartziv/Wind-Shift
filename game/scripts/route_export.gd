@@ -17,7 +17,7 @@ static func route_points(sim: RaceSim) -> Array:
 static func to_gpx(route_name: String, pts: Array) -> String:
 	var lines := PackedStringArray([
 		'<?xml version="1.0" encoding="UTF-8"?>',
-		'<gpx version="1.1" creator="Sailing navigation" xmlns="http://www.topografix.com/GPX/1/1">',
+		'<gpx version="1.1" creator="Wind Shift" xmlns="http://www.topografix.com/GPX/1/1">',
 		"  <metadata><name>%s</name></metadata>" % _xml(route_name),
 	])
 	for p in pts:
