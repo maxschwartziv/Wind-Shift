@@ -1,0 +1,15 @@
+{
+ "file": "current.bin",
+ "type": "float32_uv_ms",
+ "credit": "Currents: not included; the HYCOM server returned errors when this leg was built on 11 November 2026, so the leg uses still water",
+ "lat_north": 37.9,
+ "lon_west": -122.8,
+ "dlat": 1.3999999999999986,
+ "dlon": 1.0,
+ "rows": 2,
+ "cols": 2,
+ "times_s": [
+  -20700,
+  108900
+ ]
+}

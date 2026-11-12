@@ -1,0 +1,230 @@
+{
+ "id": "test-pocket",
+ "event": "Test map",
+ "event_type": "race",
+ "leg": "Light-wind pocket test",
+ "note": "Synthetic wind for testing routing. A pocket of light wind sits on the straight line from start to finish.",
+ "time_zone": "UTC",
+ "utc_offset_s": 0,
+ "start_utc": "2025-06-01T18:00:00Z",
+ "start_line": [
+  [
+   30.85,
+   -120.53
+  ],
+  [
+   30.85,
+   -120.47
+  ]
+ ],
+ "finish_line": [
+  [
+   30.15,
+   -120.62
+  ],
+  [
+   30.15,
+   -120.38
+  ]
+ ],
+ "marks": [],
+ "rules": {
+  "motoring_allowed": false,
+  "motoring_penalty_factor": null
+ },
+ "bounds": {
+  "lat_min": 29.9,
+  "lat_max": 31.1,
+  "lon_min": -121.0,
+  "lon_max": -120.0
+ },
+ "fleet": "fleet.json",
+ "wind": {
+  "type": "float32_uv_ms",
+  "credit": "Test map: synthetic wind with a light-wind pocket",
+  "lat_north": 31.1,
+  "lon_west": -121.0,
+  "dlat": 0.05,
+  "dlon": 0.05,
+  "rows": 25,
+  "cols": 21,
+  "file": "wind.bin",
+  "times_s": [
+   -21600,
+   -18000,
+   -14400,
+   -10800,
+   -7200,
+   -3600,
+   0,
+   3600,
+   7200,
+   10800,
+   14400,
+   18000,
+   21600,
+   25200,
+   28800,
+   32400,
+   36000,
+   39600,
+   43200,
+   46800,
+   50400,
+   54000,
+   57600,
+   61200,
+   64800,
+   68400,
+   72000,
+   75600,
+   79200,
+   82800,
+   86400,
+   90000,
+   93600,
+   97200,
+   100800,
+   104400,
+   108000
+  ]
+ },
+ "forecast": {
+  "type": "float32_uv_ms",
+  "credit": "Test map: synthetic forecast; the first run misses the pocket",
+  "lat_north": 31.1,
+  "lon_west": -121.0,
+  "dlat": 0.05,
+  "dlon": 0.05,
+  "rows": 25,
+  "cols": 21,
+  "runs": [
+   {
+    "file": "forecast_2025060112.bin",
+    "run_utc": "2025-06-01T12:00:00Z",
+    "available_s": -7200,
+    "times_s": [
+     -21600,
+     -18000,
+     -14400,
+     -10800,
+     -7200,
+     -3600,
+     0,
+     3600,
+     7200,
+     10800,
+     14400,
+     18000,
+     21600,
+     25200,
+     28800,
+     32400,
+     36000,
+     39600,
+     43200,
+     46800,
+     50400,
+     54000,
+     57600,
+     61200,
+     64800,
+     68400,
+     72000,
+     75600,
+     79200,
+     82800,
+     86400,
+     90000,
+     93600,
+     97200,
+     100800,
+     104400,
+     108000
+    ]
+   },
+   {
+    "file": "forecast_2025060118.bin",
+    "run_utc": "2025-06-01T18:00:00Z",
+    "available_s": 14400,
+    "times_s": [
+     -21600,
+     -18000,
+     -14400,
+     -10800,
+     -7200,
+     -3600,
+     0,
+     3600,
+     7200,
+     10800,
+     14400,
+     18000,
+     21600,
+     25200,
+     28800,
+     32400,
+     36000,
+     39600,
+     43200,
+     46800,
+     50400,
+     54000,
+     57600,
+     61200,
+     64800,
+     68400,
+     72000,
+     75600,
+     79200,
+     82800,
+     86400,
+     90000,
+     93600,
+     97200,
+     100800,
+     104400,
+     108000
+    ]
+   }
+  ]
+ },
+ "current": {
+  "file": "current.bin",
+  "type": "float32_uv_ms",
+  "credit": "Test map: no current",
+  "lat_north": 31.1,
+  "lon_west": -121.0,
+  "dlat": 1.2000000000000028,
+  "dlon": 1.0,
+  "rows": 2,
+  "cols": 2,
+  "times_s": [
+   -21600,
+   108000
+  ]
+ },
+ "depth": {
+  "file": "depth.bin",
+  "type": "int16_dm",
+  "credit": "Test map: 3000 m deep everywhere",
+  "lat_north": 31.1,
+  "lon_west": -121.0,
+  "dlat": 0.01,
+  "dlon": 0.01,
+  "rows": 121,
+  "cols": 101
+ },
+ "tiles": {
+  "dir": "tiles",
+  "scheme": "xyz",
+  "z_min": 6,
+  "z_max": 12,
+  "format": "jpg",
+  "credit": ""
+ },
+ "credits": [
+  "Test map: synthetic wind and forecast, no current, uniform depth, no imagery"
+ ],
+ "description": "A made-up open-water course for testing routing: varying wind and a pocket of light air on the direct line. No fleet."
+}

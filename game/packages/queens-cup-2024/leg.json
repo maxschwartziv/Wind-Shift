@@ -1,0 +1,242 @@
+{
+ "id": "queens-cup-2024",
+ "event": "Queen's Cup 2024 (South Shore Yacht Club)",
+ "event_type": "race",
+ "leg": "Milwaukee to South Haven",
+ "note": "The start and finish lines are not the race's real lines: the start line is 0.6 nm and the finish line 1.5 nm long, square to the course, centered on the starting mark (N43 00.3432 W087 49.8420) and the finishing mark (N42 24.5500 W086 18.4692) from the 2024 sailing instructions. Each boat's class start is its fleet's first start: 14:35, 16:05 or 16:35 CDT.",
+ "time_zone": "America/Chicago",
+ "utc_offset_s": -18000,
+ "start_utc": "2024-06-28T19:35:00Z",
+ "start_line": [
+  [
+   43.01013,
+   -87.82749
+  ],
+  [
+   43.00131,
+   -87.83391
+  ]
+ ],
+ "finish_line": [
+  [
+   42.42021,
+   -86.29987
+  ],
+  [
+   42.39813,
+   -86.31577
+  ]
+ ],
+ "marks": [],
+ "rules": {
+  "motoring_allowed": false,
+  "motoring_penalty_factor": null
+ },
+ "bounds": {
+  "lat_min": 42.25,
+  "lat_max": 43.15,
+  "lon_min": -87.95,
+  "lon_max": -86.15
+ },
+ "fleet": "fleet.json",
+ "wind": {
+  "file": "wind.bin",
+  "type": "float32_uv_ms",
+  "credit": "Wind: ERA5 reanalysis (Copernicus Climate Change Service), served by Open-Meteo.com (CC BY 4.0)",
+  "lat_north": 43.25,
+  "lon_west": -88.0,
+  "dlat": 0.25,
+  "dlon": 0.25,
+  "rows": 5,
+  "cols": 9,
+  "times_s": [
+   -5700,
+   -2100,
+   1500,
+   5100,
+   8700,
+   12300,
+   15900,
+   19500,
+   23100,
+   26700,
+   30300,
+   33900,
+   37500,
+   41100,
+   44700,
+   48300,
+   51900,
+   55500,
+   59100,
+   62700,
+   66300,
+   69900,
+   73500,
+   77100,
+   80700,
+   84300,
+   87900,
+   91500
+  ]
+ },
+ "forecast": {
+  "type": "float32_uv_ms",
+  "credit": "Period forecast: NOAA GFS 0.25 degree, as issued (NOAA Open Data Dissemination on AWS)",
+  "lat_north": 43.25,
+  "lon_west": -88.0,
+  "dlat": 0.25,
+  "dlon": 0.25,
+  "rows": 5,
+  "cols": 9,
+  "runs": [
+   {
+    "file": "forecast_2024062818.bin",
+    "run_utc": "2024-06-28T18:00:00Z",
+    "available_s": 8700,
+    "times_s": [
+     -5700,
+     -2100,
+     1500,
+     5100,
+     8700,
+     12300,
+     15900,
+     19500,
+     23100,
+     26700,
+     30300,
+     33900,
+     37500,
+     41100,
+     44700,
+     48300,
+     51900,
+     55500,
+     59100,
+     62700,
+     66300,
+     69900,
+     73500,
+     77100,
+     80700,
+     84300,
+     87900,
+     91500
+    ]
+   },
+   {
+    "file": "forecast_2024062900.bin",
+    "run_utc": "2024-06-29T00:00:00Z",
+    "available_s": 30300,
+    "times_s": [
+     15900,
+     19500,
+     23100,
+     26700,
+     30300,
+     33900,
+     37500,
+     41100,
+     44700,
+     48300,
+     51900,
+     55500,
+     59100,
+     62700,
+     66300,
+     69900,
+     73500,
+     77100,
+     80700,
+     84300,
+     87900,
+     91500
+    ]
+   },
+   {
+    "file": "forecast_2024062906.bin",
+    "run_utc": "2024-06-29T06:00:00Z",
+    "available_s": 51900,
+    "times_s": [
+     37500,
+     41100,
+     44700,
+     48300,
+     51900,
+     55500,
+     59100,
+     62700,
+     66300,
+     69900,
+     73500,
+     77100,
+     80700,
+     84300,
+     87900,
+     91500
+    ]
+   },
+   {
+    "file": "forecast_2024062912.bin",
+    "run_utc": "2024-06-29T12:00:00Z",
+    "available_s": 73500,
+    "times_s": [
+     59100,
+     62700,
+     66300,
+     69900,
+     73500,
+     77100,
+     80700,
+     84300,
+     87900,
+     91500
+    ]
+   }
+  ]
+ },
+ "current": {
+  "file": "current.bin",
+  "type": "float32_uv_ms",
+  "credit": "Currents: none (lake, still water)",
+  "lat_north": 43.15,
+  "lon_west": -87.95,
+  "dlat": 0.8999999999999986,
+  "dlon": 1.7999999999999972,
+  "rows": 2,
+  "cols": 2,
+  "times_s": [
+   -5700,
+   91500
+  ]
+ },
+ "depth": {
+  "file": "depth.bin",
+  "type": "int16_dm",
+  "credit": "Depth: NOAA NCEI ETOPO 2022, 15 arc-second, with Great Lakes bathymetry",
+  "lat_north": 43.14791666666667,
+  "lon_west": -87.94791666666667,
+  "dlat": 0.0041666666666699825,
+  "dlon": 0.004166666666677088,
+  "rows": 216,
+  "cols": 432
+ },
+ "tiles": {
+  "dir": "tiles",
+  "scheme": "xyz",
+  "z_min": 6,
+  "z_max": 12,
+  "format": "jpg",
+  "credit": "Imagery: EOxCloudless 2016 by EOX IT Services GmbH, https://cloudless.eox.at (contains modified Copernicus Sentinel data 2016), CC BY 4.0"
+ },
+ "credits": [
+  "Wind: ERA5 reanalysis (Copernicus Climate Change Service), served by Open-Meteo.com (CC BY 4.0)",
+  "Period forecast: NOAA GFS 0.25 degree, as issued (NOAA Open Data Dissemination on AWS)",
+  "Currents: none (lake, still water)",
+  "Depth: NOAA NCEI ETOPO 2022, 15 arc-second, with Great Lakes bathymetry",
+  "Imagery: EOxCloudless 2016 by EOX IT Services GmbH, https://cloudless.eox.at (contains modified Copernicus Sentinel data 2016), CC BY 4.0",
+  "Fleet: AIS positions from MarineCadastre.gov (BOEM and NOAA), U.S. Coast Guard Nationwide AIS"
+ ],
+ "description": "An overnight crossing of Lake Michigan from Milwaukee to South Haven with the 2024 fleet. A southerly reach across open water; no current."
+}

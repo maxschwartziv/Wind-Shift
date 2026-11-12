@@ -1,0 +1,9 @@
+{
+ "name": "Alberg 30 (Alberg 35 polar)",
+ "draft_m": 1.32,
+ "tack_penalty_s": 25,
+ "gybe_penalty_s": 20,
+ "motoring_kn": 5.5,
+ "polar": "TWA\\TWS\t6.0\t8.0\t10.0\t12.0\t14.0\t16.0\t20.0\n52.0\t4.3\t5.1\t5.7\t5.9\t6.1\t6.1\t6.2\n60.0\t4.6\t5.5\t6.0\t6.2\t6.3\t6.4\t6.5\n75.0\t4.9\t5.8\t6.2\t6.4\t6.6\t6.7\t6.8\n90.0\t5.1\t6.0\t6.3\t6.5\t6.7\t6.8\t7.1\n110.0\t5.0\t5.9\t6.4\t6.7\t6.9\t7.1\t7.4\n120.0\t4.7\t5.8\t6.3\t6.6\t6.9\t7.2\t7.6\n135.0\t4.2\t5.2\t6.0\t6.4\t6.7\t7.0\t7.5\n150.0\t3.6\t4.5\t5.4\t6.0\t6.4\t6.7\t7.3\n",
+ "polar_source": "OpenCPN weather_routing_pi, data/polars/Alberg_35.pol (GPL-3.0)"
+}

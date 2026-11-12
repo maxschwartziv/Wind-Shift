@@ -1,0 +1,11 @@
+{
+ "file": "depth.bin",
+ "type": "int16_dm",
+ "credit": "Depth: NOAA NCEI ETOPO 2022, 15 arc-second, with Great Lakes bathymetry",
+ "lat_north": 43.14791666666667,
+ "lon_west": -87.94791666666667,
+ "dlat": 0.0041666666666699825,
+ "dlon": 0.004166666666677088,
+ "rows": 216,
+ "cols": 432
+}

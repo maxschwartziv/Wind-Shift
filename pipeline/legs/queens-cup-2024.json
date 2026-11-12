@@ -1,0 +1,63 @@
+{
+  "id": "queens-cup-2024",
+  "event": "Queen's Cup 2024 (South Shore Yacht Club)",
+  "event_type": "race",
+  "leg": "Milwaukee to South Haven",
+  "note": "The start and finish lines are not the race's real lines: the start line is 0.6 nm and the finish line 1.5 nm long, square to the course, centered on the starting mark (N43 00.3432 W087 49.8420) and the finishing mark (N42 24.5500 W086 18.4692) from the 2024 sailing instructions. Each boat's class start is its fleet's first start: 14:35, 16:05 or 16:35 CDT.",
+  "time_zone": "America/Chicago",
+  "utc_offset_s": -18000,
+  "start_utc": "2024-06-28T19:35:00Z",
+  "start_line": [
+    [
+      43.01013,
+      -87.82749
+    ],
+    [
+      43.00131,
+      -87.83391
+    ]
+  ],
+  "finish_line": [
+    [
+      42.42021,
+      -86.29987
+    ],
+    [
+      42.39813,
+      -86.31577
+    ]
+  ],
+  "marks": [],
+  "rules": {
+    "motoring_allowed": false,
+    "motoring_penalty_factor": null
+  },
+  "bounds": {
+    "lat_min": 42.25,
+    "lat_max": 43.15,
+    "lon_min": -87.95,
+    "lon_max": -86.15
+  },
+  "data_window_utc": [
+    "2024-06-28T18:00:00Z",
+    "2024-06-29T21:00:00Z"
+  ],
+  "depth_source": "etopo2022_n45w090",
+  "lake_level_m": 176.8,
+  "current_source": "none",
+  "fleet": {
+    "ais_dates": [
+      "2024-06-28",
+      "2024-06-29"
+    ],
+    "ais_area_csv": "data/queens-cup-2024_ais_area.csv",
+    "entries_csv": "data/queens-cup-2024_entries.csv",
+    "matched_csv": "data/queens-cup-2024_matched.csv",
+    "match_levels": [
+      "name+start",
+      "name"
+    ],
+    "start_radius_nm": 3.0
+  },
+  "description": "An overnight crossing of Lake Michigan from Milwaukee to South Haven with the 2024 fleet. A southerly reach across open water; no current."
+}

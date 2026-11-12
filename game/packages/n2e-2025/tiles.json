@@ -1,0 +1,15 @@
+{
+ "dir": "tiles",
+ "scheme": "xyz",
+ "z_min": 6,
+ "z_max": 12,
+ "format": "jpg",
+ "credit": "Imagery: EOxCloudless 2016 by EOX IT Services GmbH, https://cloudless.eox.at (contains modified Copernicus Sentinel data 2016), CC BY 4.0",
+ "backdrop_z_max": 10,
+ "backdrop": {
+  "lat_min": 30.799999999999997,
+  "lat_max": 35.3,
+  "lon_min": -119.8,
+  "lon_max": -115.4
+ }
+}

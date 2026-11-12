@@ -1,0 +1,15 @@
+{
+ "file": "current.bin",
+ "type": "float32_uv_ms",
+ "credit": "Currents: none (lake, still water)",
+ "lat_north": 43.15,
+ "lon_west": -87.95,
+ "dlat": 0.8999999999999986,
+ "dlon": 1.7999999999999972,
+ "rows": 2,
+ "cols": 2,
+ "times_s": [
+  -5700,
+  91500
+ ]
+}

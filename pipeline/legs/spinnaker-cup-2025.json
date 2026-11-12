@@ -1,0 +1,63 @@
+{
+  "id": "spinnaker-cup-2025",
+  "event": "Spinnaker Cup 2025 (California Offshore Race Week)",
+  "event_type": "race",
+  "leg": "San Francisco to Monterey",
+  "note": "The start line is not the race's real line: it runs north to south off Crissy Field, about 0.9 nm west of the St. Francis Yacht Club start, so each boat's start is its own crossing of it heading for the Golden Gate. The finish line runs along the race's line from the 2025 sailing instructions (Monterey Harbor Light 6 to the yellow can) but is extended to 0.5 nm, because several boats' AIS tracks pass just outside the real line's ends. Class starts are taken as the first start, 10:45 PDT, since the sailing instructions do not give each class's time. Currents are not included: the HYCOM server returned errors when the leg was built, so the water is still.",
+  "time_zone": "America/Los_Angeles",
+  "utc_offset_s": -25200,
+  "start_utc": "2025-05-24T17:45:00Z",
+  "start_line": [
+    [
+      37.8225,
+      -122.465
+    ],
+    [
+      37.805,
+      -122.465
+    ]
+  ],
+  "finish_line": [
+    [
+      36.60783,
+      -121.88285
+    ],
+    [
+      36.60884,
+      -121.89316
+    ]
+  ],
+  "marks": [],
+  "rules": {
+    "motoring_allowed": false,
+    "motoring_penalty_factor": null
+  },
+  "bounds": {
+    "lat_min": 36.5,
+    "lat_max": 37.9,
+    "lon_min": -122.8,
+    "lon_max": -121.8
+  },
+  "data_window_utc": [
+    "2025-05-24T12:00:00Z",
+    "2025-05-26T00:00:00Z"
+  ],
+  "depth_source": "crm_vol6+crm_vol7",
+  "fleet": {
+    "ais_dates": [
+      "2025-05-24",
+      "2025-05-25"
+    ],
+    "ais_area_csv": "data/spinnaker-cup-2025_ais_area.csv",
+    "entries_csv": "data/spinnaker-cup-2025_entries.csv",
+    "matched_csv": "data/spinnaker-cup-2025_matched.csv",
+    "match_levels": [
+      "name+start",
+      "name"
+    ],
+    "start_radius_nm": 3.0
+  },
+  "current_source": "none",
+  "current_credit": "Currents: not included; the HYCOM server returned errors when this leg was built on 11 November 2026, so the leg uses still water",
+  "description": "Out the Golden Gate and down the coast to Monterey with the 2025 fleet. A beat out of the bay, then a long run in the building northwesterly."
+}

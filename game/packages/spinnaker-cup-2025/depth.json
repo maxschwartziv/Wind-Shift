@@ -1,0 +1,11 @@
+{
+ "file": "depth.bin",
+ "type": "int16_dm",
+ "credit": "Depth: NOAA NCEI U.S. Coastal Relief Model, volumes 6 and 7, 3 arc-second",
+ "lat_north": 37.89999999999873,
+ "lon_west": -122.8,
+ "dlat": 0.0008333333333325754,
+ "dlon": 0.0008333333333325754,
+ "rows": 1681,
+ "cols": 1201
+}

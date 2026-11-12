@@ -1,0 +1,9 @@
+* text=auto
+*.bin binary
+*.jpg binary
+*.png binary
+*.wav binary
+*.ttf binary
+*.grib binary
+*.grb binary
+*.grb2 binary

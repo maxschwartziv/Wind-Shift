@@ -1,0 +1,57 @@
+{
+  "id": "n2e-2025",
+  "event": "77th Newport to Ensenada International Yacht Race",
+  "event_type": "race",
+  "leg": "Newport Beach to the 32.60 N line",
+  "note": "Start and finish lines are not the race's real lines. The start sits about 1 nm off Newport Beach; the finish sits at 32.60 N, 4 nm north of the US-Mexico border, ahead of the AIS coverage loss. Each boat's elapsed time runs from its own start-line crossing to its finish-line crossing.",
+  "time_zone": "America/Los_Angeles",
+  "utc_offset_s": -25200,
+  "start_utc": "2025-04-25T18:00:00Z",
+  "start_line": [
+    [
+      33.5823,
+      -117.9137
+    ],
+    [
+      33.5922,
+      -117.8887
+    ]
+  ],
+  "finish_line": [
+    [
+      32.6,
+      -117.465
+    ],
+    [
+      32.6,
+      -117.18
+    ]
+  ],
+  "marks": [],
+  "rules": {
+    "motoring_allowed": false,
+    "motoring_penalty_factor": null
+  },
+  "bounds": {
+    "lat_min": 32.3,
+    "lat_max": 33.8,
+    "lon_min": -118.3,
+    "lon_max": -116.9
+  },
+  "data_window_utc": [
+    "2025-04-25T12:00:00Z",
+    "2025-04-27T00:00:00Z"
+  ],
+  "fleet": {
+    "ais_area_csv": "data/n2e2025_ais_area.csv",
+    "matched_csv": "data/matched.csv",
+    "match_levels": [
+      "name+start"
+    ],
+    "course": "N2E",
+    "exclude": [
+      "Med Viking II"
+    ]
+  },
+  "description": "Down the Southern California coast from Newport Beach toward Ensenada, with the 2025 fleet. A long reach in the afternoon sea breeze, then light air after dark."
+}
